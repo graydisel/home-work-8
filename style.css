@@ -14,6 +14,11 @@ body {
   height: 200px;
   margin: 10px auto;
   box-sizing: border-box;
+  display: flex;
+}
+
+.first {
+  justify-content: space-between;
 }
 
 .block {
@@ -25,7 +30,6 @@ body {
 }
 
 .box_left {
-  float: left;
   margin: 30px 5px;
   height: 100px;
   padding: 35px 10px;
@@ -33,27 +37,23 @@ body {
 
 .box_right {
   height: 100px;
-  float: right;
   margin: 30px 5px;
   padding: 35px 10px;
 }
 
 .box_one {
-  float: right;
   height: 50px;
   margin-top: 10px;
   margin-right: 5px
 }
 
 .box_two {
-  float: right;
   height: 50px;
   margin-top: 65px;
   margin-right: -150px;
 }
 
 .box_three {
-  float: right;
   height: 105px;
   margin-top: 10px;
   margin-right: 5px;
@@ -61,21 +61,16 @@ body {
 }
 
 .box_cone {
-  float: right;
   height: 50px;
   margin-top: 10px;
-  margin-right: 244px
 }
 
 .box_ctwo {
-  float: right;
   height: 50px;
   margin-top: 65px;
-  margin-right: -150px;
 }
 
 .box_cthree {
-  float: right;
   height: 105px;
   margin-top: 10px;
   margin-right: 5px;
