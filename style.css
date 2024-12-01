@@ -15,10 +15,19 @@ body {
   margin: 10px auto;
   box-sizing: border-box;
   display: flex;
+  padding: 45px 20px
 }
 
-.first {
+.box:first-of-type {
   justify-content: space-between;
+}
+
+.box:nth-of-type(2) {
+
+}
+
+.box_middle {
+  margin-left: auto;
 }
 
 .block {
@@ -29,16 +38,18 @@ body {
   width: 150px;
 }
 
-.box_left {
-  margin: 30px 5px;
+.box_left, .box_right, .box_middle {
   height: 100px;
   padding: 35px 10px;
+  margin-right: 5px;
+}
+
+.box_left {
+  justify-content: flex-start;
 }
 
 .box_right {
-  height: 100px;
-  margin: 30px 5px;
-  padding: 35px 10px;
+  justify-content: flex-end;
 }
 
 .box_one {
